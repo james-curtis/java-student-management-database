@@ -1,0 +1,7 @@
+insert into MY_TABLE (id, province, city, area, create_time, create_by) values ('1256614575282958338', '1230769290609725441', '1230769470889299970', '1230769620021972993', '2020-05-03 00:00:36', 'admin');
+insert into MY_TABLE (id, province, city, area, create_time, create_by) values ('1427183594647195649', '1230769253267836929', '1230769769930592257', '1230769855347593217', '2021-08-16 16:20:59', 'admin');
+insert into MY_TABLE (id, province, city, area, create_time, create_by) values ('1427184250225299457', '1230769290609725441', '1230769470889299970', '1230769620021972993', '2021-08-16 16:23:35', 'admin');
+insert into MY_TABLE (id, province, city, area, create_time, create_by) values ('1427900912506630146', '1230769253267836929', '1230769769930592257', '1230769855347593217', '2021-08-18 15:51:21', 'admin');
+insert into MY_TABLE (id, province, city, area, create_time, create_by) values ('402880e570801ffe01708053743c002e', '1230769253267836929', '1230769769930592257', '1230769855347593217', '2020-02-26 15:08:37', 'admin');
+insert into MY_TABLE (id, province, city, area, create_time, create_by) values ('402880e570801ffe017080538b24002f', '1230769290609725441', '1230769470889299970', '1230769620021972993', '2020-02-26 15:08:43', 'admin');
+insert into MY_TABLE (id, province, city, area, create_time, create_by) values ('402880e570801ffe01708053b2b10030', '1230769253267836929', '1230769347157331969', '1230769407907631106', '2020-02-26 15:08:53', 'admin');

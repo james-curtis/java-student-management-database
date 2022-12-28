@@ -1,0 +1,2 @@
+insert into MY_TABLE (id, code, name, post_rank, company_id, create_by, create_time, update_by, update_time, sys_org_code) values ('1185040064792571906', 'devleader', '研发部经理', '2', null, 'admin', '2019-10-18 11:49:03', 'admin', '2020-02-23 22:55:42', 'A01');
+insert into MY_TABLE (id, code, name, post_rank, company_id, create_by, create_time, update_by, update_time, sys_org_code) values ('1256485574212153345', '总经理', 'laozong', '5', null, 'admin', '2020-05-02 15:28:00', 'admin', '2020-05-02 15:28:03', '北京国炬公司');
