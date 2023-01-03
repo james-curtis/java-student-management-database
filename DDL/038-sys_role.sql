@@ -8,12 +8,14 @@ create table sys_role
     create_by   varchar(32)  null comment '创建人',
     create_time datetime     null comment '创建时间',
     update_by   varchar(32)  null comment '更新人',
-    update_time datetime     null comment '更新时间',
-    constraint uniq_sys_role_role_code
-        unique (role_code)
+    update_time datetime     null comment '更新时间'
 )
     comment '角色表' charset = utf8;
 
 create index idx_sr_role_code
     on sys_role (role_code);
+
+alter table sys_role
+    add constraint uniq_sys_role_role_code
+        unique (role_code);
 

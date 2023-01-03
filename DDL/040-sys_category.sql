@@ -10,12 +10,14 @@ create table sys_category
     update_by    varchar(50)  null comment '更新人',
     update_time  datetime     null comment '更新日期',
     sys_org_code varchar(64)  null comment '所属部门',
-    has_child    varchar(3)   null comment '是否有子节点',
-    constraint index_code
-        unique (code)
+    has_child    varchar(3)   null comment '是否有子节点'
 )
     charset = utf8;
 
 create index idx_sc_code
     on sys_category (code);
+
+alter table sys_category
+    add constraint index_code
+        unique (code);
 

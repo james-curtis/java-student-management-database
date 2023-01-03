@@ -14,12 +14,14 @@ create table onl_cgreport_head
     update_time      datetime               null comment '修改时间',
     update_by        varchar(32)            null comment '修改人id',
     create_time      datetime               null comment '创建时间',
-    create_by        varchar(32)            null comment '创建人id',
-    constraint index_onlinereport_code
-        unique (code)
+    create_by        varchar(32)            null comment '创建人id'
 )
     charset = utf8;
 
 create index idx_och_code
     on onl_cgreport_head (code);
+
+alter table onl_cgreport_head
+    add constraint index_onlinereport_code
+        unique (code);
 
