@@ -16,7 +16,7 @@ create table jimu_report_data_source
     update_by     varchar(50)              null comment '更新人',
     update_time   datetime                 null comment '更新日期',
     connect_times int unsigned default '0' null comment '连接失败次数',
-    tenant_id     varchar(10) charset utf8 charset utf8 null
+    tenant_id     varchar(10) charset utf8 null comment '多租户标识'
 )
     collate = utf8mb4_general_ci;
 

@@ -21,7 +21,9 @@ create table sys_depart
     create_by        varchar(32)             null comment '创建人',
     create_time      datetime                null comment '创建日期',
     update_by        varchar(32)             null comment '更新人',
-    update_time      datetime                null comment '更新日期'
+    update_time      datetime                null comment '更新日期',
+    constraint uniq_depart_org_code
+        unique (org_code)
 )
     comment '组织机构表' charset = utf8;
 
@@ -33,8 +35,4 @@ create index idx_sd_org_code
 
 create index idx_sd_parent_id
     on sys_depart (parent_id);
-
-alter table sys_depart
-    add constraint uniq_depart_org_code
-        unique (org_code);
 

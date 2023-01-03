@@ -32,6 +32,8 @@ create table sys_user
         unique (email),
     constraint uniq_sys_user_phone
         unique (phone),
+    constraint uniq_sys_user_username
+        unique (username),
     constraint uniq_sys_user_work_no
         unique (work_no)
 )
@@ -45,8 +47,4 @@ create index idx_su_status
 
 create index idx_su_username
     on sys_user (username);
-
-alter table sys_user
-    add constraint uniq_sys_user_username
-        unique (username);
 
