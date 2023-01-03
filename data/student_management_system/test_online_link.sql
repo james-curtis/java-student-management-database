@@ -1,0 +1,11 @@
+insert into MY_TABLE (id, pid, name) values ('1', null, '中国');
+insert into MY_TABLE (id, pid, name) values ('10', '8', '庐阳区');
+insert into MY_TABLE (id, pid, name) values ('11', '7', '黄山市');
+insert into MY_TABLE (id, pid, name) values ('2', '1', '山东省');
+insert into MY_TABLE (id, pid, name) values ('3', '2', '济南市');
+insert into MY_TABLE (id, pid, name) values ('4', '3', '历城区');
+insert into MY_TABLE (id, pid, name) values ('5', '3', '长青区');
+insert into MY_TABLE (id, pid, name) values ('6', '2', '青岛市');
+insert into MY_TABLE (id, pid, name) values ('7', '1', '安徽省');
+insert into MY_TABLE (id, pid, name) values ('8', '7', '合肥市');
+insert into MY_TABLE (id, pid, name) values ('9', '8', '包河区');

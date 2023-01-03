@@ -1,0 +1,1 @@
+insert into MY_TABLE (id, create_by, create_time, update_by, update_time, sys_org_code, name, ddd) values ('1580825874361102338', 'admin', '2022-10-14 15:40:33', 'admin', '2022-10-14 15:42:39', 'A01', '单表示例', '111');

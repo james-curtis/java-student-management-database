@@ -1,0 +1,1 @@
+insert into MY_TABLE (id, table_name, table_data_id, file_id, file_type, create_by, create_time) values ('1580814573635252225', 'sys_comment', '1580814573433925634', '1580814573568143361', 'image', 'admin', '2022-10-14 14:55:39');

@@ -1,0 +1,7 @@
+insert into MY_TABLE (id, student_id, class_id) values ('1609000569241968642', '1608836381682532353', '1609000569241968642');
+insert into MY_TABLE (id, student_id, class_id) values ('1609000569241968644', '1608836901067390977', '1609000569241968642');
+insert into MY_TABLE (id, student_id, class_id) values ('1609000569241968645', '1610074322264739842', '1609000569241968642');
+insert into MY_TABLE (id, student_id, class_id) values ('1610084523537604609', '1610084523424358402', '1609000569241968642');
+insert into MY_TABLE (id, student_id, class_id) values ('1610084801481547777', '1610084801422827521', '1609000569241968642');
+insert into MY_TABLE (id, student_id, class_id) values ('1610085050044391425', '1610085049985671170', '1609000569241968642');
+insert into MY_TABLE (id, student_id, class_id) values ('1610085440982884353', '1610085440936747010', '1609000569241968642');
