@@ -1,5 +1,0 @@
-insert into MY_TABLE (biz_income, bx_jj_yongjin, bx_zx_money, chengbao_gz_money, bx_gg_moeny, tb_zx_money, neikong_zx_money, total) values ('中国石油全资（集团所属）', 37134.58, 1099273.32, 0.00, 0.00, 0.00, 226415.09, 38460270.57);
-insert into MY_TABLE (biz_income, bx_jj_yongjin, bx_zx_money, chengbao_gz_money, bx_gg_moeny, tb_zx_money, neikong_zx_money, total) values ('中国石油全资（股份所属）', 227595.77, 0.00, 0.00, 0.00, 0.00, 0.00, 227595.77);
-insert into MY_TABLE (biz_income, bx_jj_yongjin, bx_zx_money, chengbao_gz_money, bx_gg_moeny, tb_zx_money, neikong_zx_money, total) values ('中石油控股或有控股权', 310628.11, 369298.64, 0.00, 0.00, 0.00, 0.00, 679926.75);
-insert into MY_TABLE (biz_income, bx_jj_yongjin, bx_zx_money, chengbao_gz_money, bx_gg_moeny, tb_zx_money, neikong_zx_money, total) values ('中石油参股', 72062.45, 0.00, 0.00, 0.00, 0.00, 0.00, 72062.75);
-insert into MY_TABLE (biz_income, bx_jj_yongjin, bx_zx_money, chengbao_gz_money, bx_gg_moeny, tb_zx_money, neikong_zx_money, total) values ('非中石油', 1486526.90, 212070.72, 0.00, 0.00, 0.00, 226415.09, 1698597.62);

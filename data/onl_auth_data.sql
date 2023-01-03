@@ -1,1 +1,0 @@
-insert into MY_TABLE (id, cgform_id, rule_name, rule_column, rule_operator, rule_value, status, create_time, create_by, update_by, update_time) values ('1533109082784460801', '9ab817fd4c2e4e7ba6652c4fa46af389', '性别等于1', 'sex', '=', '1', 1, '2022-06-04 23:31:04', 'admin', null, null);

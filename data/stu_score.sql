@@ -1,1 +1,0 @@
-insert into MY_TABLE (id, create_by, create_time, update_by, update_time, sys_org_code, user, course, score, term, record_time) values ('1607662522568048641', 'admin', '2022-12-27 16:59:48', null, null, 'A01', 'a75d45a015c44384a04449ee80dc3503', '1607661605219237889', 99, '33', '2022-12-27 16:59:46');
